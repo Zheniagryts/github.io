@@ -1,0 +1,62 @@
+/* Header, footer */
+
+header, footer {
+  background-color: purple;
+}
+
+h1{
+	color:gold;
+	background-color:purple;
+	font-family:Arial;
+}
+.p1{
+	background:linear-gradient(to top, purple, black);
+	color:gold;
+}
+.k1{
+	width:830px;
+	border:2px double gold;
+	border-radius:20px 20px 20px 20px;
+	
+}
+body{
+	background-color:gold;
+	}
+	#nav{
+	padding:10px 0 5px 0;
+	list-style-type:none;
+	font-family:Arvo,serif;
+	font-size:30px;
+	text-align:center;
+	text-transform:uppercase;
+	background: linear-gradient(to top, gold, purple);
+}
+#nav li{
+	display:inline;
+	margin-right:30px;
+	background-color:white;
+	color:purple;
+}
+#nav a{
+	text-decoration:none;
+	font-weight:bold;
+	display:inline-block;
+	color:purple;
+	padding:5px 10px;
+}
+#nav a:hover{
+	background-color:gold;
+	color:purple;
+	border-radius:20px 20px;
+}
+h1{
+	background-color:purple;
+	color:gold;
+	text-align:center;
+margin-top:10px;
+	font-family:Arvo,serif;
+}
+.carousel a:hover{
+	background:linear-gradient(to top, gold, purple);
+	border: 10px double black;
+}
